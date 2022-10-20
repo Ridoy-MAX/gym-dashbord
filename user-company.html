@@ -1,15 +1,5 @@
 <!DOCTYPE html>
-<!--
-Author: Keenthemes
-Product Name: Seven HTML Pro - Bootstrap 5 HTML Multipurpose Light/Dark Admin Dashboard Theme
-Purchase: https://keenthemes.com/products/seven-html-pro
-Website: http://www.keenthemes.com
-Contact: support@keenthemes.com
-Follow: www.twitter.com/keenthemes
-Dribbble: www.dribbble.com/keenthemes
-Like: www.facebook.com/keenthemes
-License: For each use you must have a valid license purchased only from above link in order to legally use the theme for your project.
--->
+
 <html lang="en">
 	<!--begin::Head-->
 	<head><base href=""/>
@@ -27,6 +17,7 @@ License: For each use you must have a valid license purchased only from above li
 		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
 		<!--begin::Fonts-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
 		<!--end::Fonts-->
 		<!--begin::Vendor Stylesheets(used by this page)-->
@@ -34,6 +25,11 @@ License: For each use you must have a valid license purchased only from above li
 		<link href="assets/plugins/custom/vis-timeline/vis-timeline.bundle.css" rel="stylesheet" type="text/css" />
 		<!--end::Vendor Stylesheets-->
 		<!--begin::Global Stylesheets Bundle(used by all pages)-->
+		
+        
+		<link href="assets/plugins/custom/prismjs/prismjs.bundle.css" rel="stylesheet" type="text/css" />
+     
+
 		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 		<!--end::Global Stylesheets Bundle-->
@@ -1638,7 +1634,7 @@ License: For each use you must have a valid license purchased only from above li
 									<!--begin::Page title-->
 									<div class="page-title d-flex flex-column align-items-start justify-content-center flex-wrap me-lg-2 pb-5 pb-lg-0" data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_content_container', lg: '#kt_header_container'}">
 										<!--begin::Heading-->
-										<h1 class="text-dark fw-semibold my-0 fs-2">Dashboard</h1>
+										<h1 class="text-dark fw-semibold my-0 fs-2">User company alaytics</h1>
 										<!--end::Heading-->
 										<!--begin::Breadcrumb-->
 										<ul class="breadcrumb breadcrumb-line text-muted fw-semibold fs-base my-1">
@@ -1676,12 +1672,12 @@ License: For each use you must have a valid license purchased only from above li
 									<div class="d-flex flex-shrink-0">
 										<!--begin::Invite user-->
 										<div class="d-flex ms-3">
-											<a href="#" class="btn bg-body btn-color-gray-600 btn-active-info" tooltip="New Member" data-bs-toggle="modal" data-bs-target="#kt_modal_create_account">New User</a>
+											<a href="#" class="btn bg-body btn-red " tooltip="New Member" data-bs-toggle="modal" data-bs-target="#kt_modal_create_account">New User</a>
 										</div>
 										<!--end::Invite user-->
 										<!--begin::Create app-->
 										<div class="d-flex ms-3">
-											<a href="#" class="btn btn-info" tooltip="New App" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign">New Goal</a>
+											<a href="#" class="btn btn-red text-white" tooltip="New App" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign">New Goal</a>
 										</div>
 										<!--end::Create app-->
 									</div>
@@ -1696,6 +1692,70 @@ License: For each use you must have a valid license purchased only from above li
 							<!--begin::Footer-->
 
 							<!--end::Footer-->
+
+                  
+
+						<div class="row mt-3">
+						<div class="col-md-6 gx-0">
+						
+
+							<div class="card card-bordered gender-pie">
+                                <h1 class="h1 m-3">Gender pie</h1>
+								
+									<div id="kt_apexcharts_6" style="height: 400px;"></div>
+
+                                  <h2>Total:12,082,251 <span>visits</span></h2>  
+							
+							</div>
+
+
+	
+						</div>	
+						<div class="col-md-6">
+                            <div class="card card-bordered p-3">
+                                <h1 class="m-3 ps-3">Genders in gyms</h1>
+                           
+                                <div id="kt_apexcharts_1" style="height: 450px;"></div>
+                         
+                        </div>
+						 
+						</div>	
+
+
+
+
+					    </div>
+
+
+
+
+
+                        <div class="row mt-3">
+                             <div class="col-md-6">
+                                <div class="card">
+                                   <div class="Growth">
+                                    <div class="d-flex  justify-content-between one">
+								<div class="d-flex">
+									<h4>Growth</h4>
+                                   
+								</div>
+                                 <div>
+									
+									<span class="svg-icon svg-icon-2x">
+													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<rect x="2" y="2" width="9" height="9" rx="2" fill="currentColor"></rect>
+														<rect opacity="0.3" x="13" y="2" width="9" height="9" rx="2" fill="currentColor"></rect>
+														<rect opacity="0.3" x="13" y="13" width="9" height="9" rx="2" fill="currentColor"></rect>
+														<rect opacity="0.3" x="2" y="13" width="9" height="9" rx="2" fill="currentColor"></rect>
+													</svg>
+												</span>
+								</div>
+                            </div>
+                                    </div>    
+                                </div>
+                            </div>
+                             <div class="col-md-6"></div>
+                        </div>
 
 
 				
@@ -8479,7 +8539,13 @@ License: For each use you must have a valid license purchased only from above li
 		<script src="https://cdn.amcharts.com/lib/5/radar.js"></script>
 		<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
 		<!--end::Vendors Javascript-->
+		<!--begin::Vendors Javascript(used by this page)-->
+		<script src="assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
 		<!--begin::Custom Javascript(used by this page)-->
+
+		<!--begin::Custom Javascript(used by this page)-->
+		<script src="assets/js/custom/apexcharts.js"></script>
+
 		<script src="assets/js/widgets.bundle.js"></script>
 		<script src="assets/js/custom/apps/chat/chat.js"></script>
 		<script src="assets/js/custom/utilities/modals/upgrade-plan.js"></script>
@@ -8496,6 +8562,7 @@ License: For each use you must have a valid license purchased only from above li
 		<script src="assets/js/custom/utilities/modals/create-app.js"></script>
 		<script src="assets/js/custom/utilities/modals/new-address.js"></script>
 		<script src="assets/js/custom/utilities/modals/users-search.js"></script>
+		<script src="assets/js/custom.js"></script>
 		<!--end::Custom Javascript-->
 		<!--end::Javascript-->
 	</body>
